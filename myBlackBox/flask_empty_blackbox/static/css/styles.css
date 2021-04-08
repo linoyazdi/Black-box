@@ -1,0 +1,78 @@
+input[type=button], input[type=submit] {
+  background-color: #295c89;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 25px;
+  border-radius: 14px;
+}
+input:hover[type="submit"]
+{
+	background-color: #4CAF44;
+}
+input[type="text"] {
+  border: black;
+  padding: 10px 10px;
+  font-size: 25px;
+	background-color: #dddddd;
+}
+body {
+  background: url('https://cdn.pizap.com/pizapfiles/images/photo_backgrounds_textures_app04.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+div[class="jumbotron"]{
+	opacity: 0.7;
+	color: black;
+	background-color: #ffffff;
+}
+footer{
+	color: #eeeeee;
+	text-align: center;
+}
+
+
+.value-button {
+  display: inline-block;
+  border: 1px solid #ddd;
+  margin: 0px;
+  width: 40px;
+  height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  background: #eee;
+}
+
+.center {
+  margin-left: 40px;
+  width: 50%;
+}
+
+.value-button:hover {
+  cursor: pointer;
+}
+
+
+
+form #input-wrap {
+  margin: 0px;
+  padding: 0px;
+}
+
+input#number {
+  text-align: center;
+  border: none;
+  border-top: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
+  margin: 0px;
+  width: 60px;
+  height: 40px;
+  font-size: 20px;
+}
+
+
